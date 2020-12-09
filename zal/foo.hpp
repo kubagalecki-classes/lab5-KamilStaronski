@@ -12,7 +12,7 @@ std::vector< char > foo(std::list< Human >& people)
   //}
   std::list<Human> ::iterator iter;
   for(iter=people.begin(); iter!=people.end();++iter){
-    iter.birthday();
+    (*iter).birthday();
   }
   std::list<Human> ::reverse_iterator iterR;
   for(iterR=people.rbegin(); iterR!=people.rend();++iterR){
