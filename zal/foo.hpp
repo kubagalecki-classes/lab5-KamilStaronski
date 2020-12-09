@@ -19,5 +19,5 @@ std::vector< char > foo(std::list< Human >& people)
       v1.push_back('y');
     }
   }
-  return v1;
+  return {};
 }
